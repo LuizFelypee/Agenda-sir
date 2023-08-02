@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&family=Fjalla+One&display=swap');
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+
+
+
+body{
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	background: #c0c0c0;
+}
+
+.agenda{
+	right: 300px;
+	height: 500px;
+	background: #FCFCFC;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 20px;
+	
+}
+
+h1{
+	color: #66BBFF;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+img{
+	margin-top: 10px;
+}
+
+.botao{
+	text-decoration: none;
+	background: #66BBFF;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: rgb(0, 64, 128);
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.novo{
+	margin:0 auto;
+}
+
+
+.novo_contato{
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.caixa1{
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.caixa2{
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.caixa3{
+	width: 320px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #ff0000;
+	border-radius: 5px;
+}
+
+#tabela{
+	border: 1px solid #DDD;
+	padding: 10px;
+	text-align: justify;
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+#tabela th{
+	border: 1px solid #DDD;
+	padding:10px;
+	background: #66bbff;
+	color: #FFF;
+}
+
+#tabela td{
+	border:1px solid #DDD;
+	padding:10px;
+}
+
+.botao1{
+	text-decoration: none;
+	background: #D51213;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 1.2em;
+	font-weight: 700;
+	border: 0;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	cursor: pointer;
+}
